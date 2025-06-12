@@ -1,8 +1,10 @@
+using TMPro;
 using UnityEngine;
 
 public class Embalage : MonoBehaviour
 {
     public int score = 0;
+    public TextMeshPro scoreText;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,5 +16,6 @@ public class Embalage : MonoBehaviour
         {
             score--;
         }
+        scoreText.text = "" + score;
     }
 }
