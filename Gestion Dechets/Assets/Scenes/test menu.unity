@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 47932979}
   - component: {fileID: 47932978}
   - component: {fileID: 47932977}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,7 +968,7 @@ GameObject:
   - component: {fileID: 860473265}
   - component: {fileID: 860473267}
   - component: {fileID: 860473266}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2022,7 +2022,8 @@ GameObject:
   - component: {fileID: 1253467051}
   - component: {fileID: 1253467050}
   - component: {fileID: 1253467049}
-  m_Layer: 0
+  - component: {fileID: 1253467053}
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2049,7 +2050,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 837.75, y: 393.99997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253467049
@@ -2128,6 +2129,25 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1253467053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253467047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &1324913239
 GameObject:
   m_ObjectHideFlags: 0
@@ -3205,7 +3225,7 @@ GameObject:
   - component: {fileID: 1496080240}
   - component: {fileID: 1496080242}
   - component: {fileID: 1496080241}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text Jaune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3422,7 +3442,7 @@ GameObject:
   - component: {fileID: 1543885006}
   - component: {fileID: 1543885005}
   - component: {fileID: 1543885004}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text Marron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3737,7 +3757,7 @@ GameObject:
   - component: {fileID: 2088743342}
   - component: {fileID: 2088743340}
   - component: {fileID: 2088743339}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text Vert
   m_TagString: Untagged
   m_Icon: {fileID: 0}

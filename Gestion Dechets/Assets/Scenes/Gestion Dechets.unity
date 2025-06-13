@@ -603,13 +603,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167628127}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6333745}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -7.81, y: -0.15}
@@ -689,6 +689,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 0}
+  cylindre: {fileID: 0}
+  cylindreV: {fileID: 0}
+  cylindreR: {fileID: 0}
+  timer: 0
+  actionFait: 0
 --- !u!1 &183852256
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,6 +768,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 0}
+  cylindre: {fileID: 0}
+  cylindreV: {fileID: 0}
+  cylindreR: {fileID: 0}
+  timer: 0
+  actionFait: 0
 --- !u!1 &224175553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,13 +1604,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729041926}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 973167131}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -7.76, y: 0.65}
@@ -1636,7 +1646,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4280193038
-  m_fontColor: {r: 0.056069776, g: 0.5660378, b: 0.11843152, a: 1}
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4317,6 +4327,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 0}
+  cylindre: {fileID: 0}
+  cylindreV: {fileID: 0}
+  cylindreR: {fileID: 0}
+  timer: 0
+  actionFait: 0
 --- !u!1 &1369188643
 GameObject:
   m_ObjectHideFlags: 0
@@ -5287,13 +5302,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072861989}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1520625543}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -8.09, y: -0.52}
@@ -5736,8 +5751,29 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9202398048571066849, guid: 263487f796aa66a47ae8419b0eeb3d18, type: 3}
       insertIndex: -1
       addedObject: {fileID: 729041927}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5949879517592821075, guid: 263487f796aa66a47ae8419b0eeb3d18, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 2264145289008434672}
   m_SourcePrefab: {fileID: 100100000, guid: 263487f796aa66a47ae8419b0eeb3d18, type: 3}
+--- !u!1 &2264145289008434671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5949879517592821075, guid: 263487f796aa66a47ae8419b0eeb3d18, type: 3}
+  m_PrefabInstance: {fileID: 2264145289008434670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2264145289008434672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2264145289008434671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ef933bd6689c64e92616678634a727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textMesh: {fileID: 729041928}
 --- !u!1001 &4729783296345002085
 PrefabInstance:
   m_ObjectHideFlags: 0
